@@ -410,7 +410,7 @@ button:hover {
 
 @media screen and (min-width: 319px) {
     body {
-        width: min-content;
+        width: fit-content;
     }
 }
 

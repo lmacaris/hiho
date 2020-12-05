@@ -374,13 +374,16 @@ button:hover {
         width: 100%;
     }
     .body {
-        width: 100%;
+        width: fit-content;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .container__texto {
         display: none;
+    }
+    .body {
+        width: fit-content;
     }
 }
 
@@ -391,8 +394,8 @@ button:hover {
     .navfondo {
         width: 100%;
     }
-    body {
-        width: 100%;
+    .body {
+        width: fit-content;
     }
 }
 
@@ -403,9 +406,33 @@ button:hover {
     .navfondo {
         width: 100%;
     }
+    .body {
+        width: fit-content;
+    }
 }
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 576px) {
+    .testimonial-section {
+        width: 100%;
+    }
+    .navfondo {
+        width: 100%;
+    }
+    .body {
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .testimonial-section {
+        width: 100%;
+    }
+    body {
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 375px) {
     .testimonial-section {
         width: 100%;
     }

@@ -11,7 +11,7 @@
 
 .navfondo {
     background-color: #24252A;
-    padding-left: 40px;
+    padding-left: 0px;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -37,11 +37,15 @@ header {
 }
 
 .logo {
-    cursor: pointer;
+    max-width: 400px;
+    height: 100px;
+    filter: none;
+    right: 30px;
 }
 
 .nav__links {
     list-style: none;
+    display: flex;
 }
 
 .nav__links li {

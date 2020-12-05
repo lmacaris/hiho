@@ -364,10 +364,16 @@ button:hover {
         width: 85%;
         top: 50%;
     }
+    .body {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1200px) {
     .testimonial-section {
+        width: 100%;
+    }
+    .body {
         width: 100%;
     }
 }
@@ -404,13 +410,13 @@ button:hover {
         width: 100%;
     }
     body {
-        width: 400px;
+        width: fit-content;
     }
 }
 
-@media screen and (min-width: 319px) {
+@media screen and (max-width: 320px) {
     body {
-        width: fit-content;
+        max-width: fit-content;
     }
 }
 

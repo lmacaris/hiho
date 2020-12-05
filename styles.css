@@ -175,6 +175,9 @@ button:hover {
 
 /********************VIDEO ANIMACION *************/
 
+
+/********************INICIO *************/
+
 .testimonial-section {
     font-family: "Hind", sans-serif;
     background: #f1f1f1;
@@ -238,64 +241,6 @@ button:hover {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 15px;
-}
-
-@media screen and (max-width: 1400px) {
-    .testimonial-section {
-        width: 100%;
-    }
-    .container__texto {
-        width: 85%;
-        top: 50%;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .testimonial-section {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .container__texto {
-        display: none;
-    }
-}
-
-@media screen and (max-width:860px) {
-    .testimonial-section {
-        width: 100%;
-    }
-    .navfondo {
-        width: 100%;
-    }
-    body {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .testimonial-section {
-        width: 100%;
-    }
-    .navfondo {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 361px) {
-    .testimonial-section {
-        width: 100%;
-    }
-    body {
-        width: 400px;
-    }
-}
-
-@media screen and (min-width: 361px) {
-    body {
-        width: 100%;
-    }
 }
 
 
@@ -407,6 +352,70 @@ button:hover {
     color: #fff;
     transition: 0.5s;
 }
+
+
+/******************** RESPONSIVE INDEX *************/
+
+@media screen and (max-width: 1400px) {
+    .testimonial-section {
+        width: 100%;
+    }
+    .container__texto {
+        width: 85%;
+        top: 50%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .testimonial-section {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container__texto {
+        display: none;
+    }
+}
+
+@media screen and (max-width:860px) {
+    .testimonial-section {
+        width: 100%;
+    }
+    .navfondo {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .testimonial-section {
+        width: 100%;
+    }
+    .navfondo {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .testimonial-section {
+        width: 100%;
+    }
+    body {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 319px) {
+    body {
+        width: min-content;
+    }
+}
+
+
+/******************** RESPONSIVE INDEX *************/
 
 
 /* -------------------Inicio ---------

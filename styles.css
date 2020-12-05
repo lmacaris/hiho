@@ -365,7 +365,7 @@ button:hover {
         top: 50%;
     }
     .body {
-        width: 100%;
+        width: fit-content;
     }
 }
 

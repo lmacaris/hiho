@@ -455,7 +455,350 @@ button {
 }
 
 
-/*--------------- final FOOTER --------------------------------*/
+/* -------------------FIN FOOTER ---------*/
 
 
-/*******************Contacto****************/
+/*******************INCIO CONTACTO ****************/
+
+.contact-section {
+    background: url(../../images2/fondo4.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 40px 0;
+    h1 {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin: auto;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        border: 4px #181f25 solid;
+        width: 384px;
+        height: 58px;
+    }
+    .border {
+        width: 100px;
+        height: 10px;
+        background: #34495e;
+        margin: 40px auto;
+    }
+    .contact-form {
+        max-width: 600px;
+        margin: auto;
+        padding: 0 10px;
+        overflow: hidden;
+        .contact-form-text {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            margin: 16px 0;
+            border: 0;
+            background-color: #111;
+            padding: 20px 40px;
+            outline: none;
+            color: #ddd;
+            transition: 0.5s;
+            &:focus {
+                box-shadow: 0 0 10px 4px #34495e;
+            }
+        }
+        textarea {
+            .contact-form-text {
+                resize: none;
+                height: 120px;
+            }
+        }
+        .contact-form-btn {
+            float: left;
+            border: 0;
+            background: rgba(0, 136, 169, 1);
+            color: #fff;
+            padding: 12px 50px;
+            border: 20px;
+            cursor: pointer;
+            transition: 0.5s;
+            margin: 37px;
+            &:hover {
+                background: #125a4e;
+            }
+        }
+        .contact-form-enviar {
+            float: left;
+            border: 0;
+            background: rgba(0, 136, 169, 1);
+            color: #fff;
+            padding: 12px 50px;
+            border: 20px;
+            cursor: pointer;
+            transition: 0.5s;
+            margin: 37px;
+            &:hover {
+                background: #125a4e;
+            }
+        }
+    }
+}
+
+
+/* ------------ final contacto ------------------------
+--------------- inicio quienessomos---------------------------- */
+
+.body {
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #24252A;
+    width: auto;
+}
+
+.about {
+    background: url(images2/fondo.jpg) no-repeat left;
+    background-size: 55%;
+    height: 100vh;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-section {
+    width: 50%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+    line-break: anywhere;
+}
+
+.inner-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: #fdfdfd;
+}
+
+.text {
+    font-size: 16px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    background-color: #fdfdfd;
+}
+
+@media screen and (max-width: 1200px) {
+    .inner-section {
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .about {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-section {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about {
+        padding: 0;
+        height: auto;
+    }
+    .inner-section {
+        padding: 60px;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .inner-section {
+        margin-top: 10px;
+        padding-top: 20px;
+    }
+}
+
+
+/* ---------------------- final quienes somos -----------------
+------------------------- inicio Blog ---------------------- */
+
+.todito {
+    font-family: "Raleway", sans-serif;
+}
+
+.todito h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+
+/*------------- HERO -----------------*/
+
+img {
+    filter: grayscale(50%) brightness(0.8);
+}
+
+img:hover {
+    filter: none;
+    transition: 0.5s;
+}
+
+img.rounded-circle {
+    filter: none;
+    border: 2px solid #ffffff;
+}
+
+.hero {
+    background-color: #d9dfe4;
+}
+
+.hero-post {
+    position: relative;
+}
+
+.hero-post-badges {
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    right: 10px;
+}
+
+.hero-post-badges a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0, 135, 169, 0.466);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hero-post-content {
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+}
+
+.hero-post-content img {
+    border: 2px solid #fff;
+}
+
+
+/**************MAIN BLOG ***********************/
+
+.blog-posts {
+    background-color: #ededee;
+    color: #111;
+}
+
+.blog-post {
+    background-color: #ffffff;
+}
+
+.blog-post img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-post a {
+    color: #34495e;
+}
+
+.blog-post p {
+    font-size: 0.9rem;
+}
+
+.blog-post .col-sm-8 {
+    border-left: 3px solid black;
+}
+
+.badge {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.badge>a {
+    margin-left: 0.5rem;
+    padding: 0.5 rem;
+    color: black;
+    background-color: rgb(5, 161, 201);
+    text-decoration: none
+}
+
+
+/**************** ASIDE *****************/
+
+.social-links a {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.social-links {
+    background-color: hsl(0, 5%, 85%);
+    color: black;
+    font-size: 1rem;
+}
+
+.fa-facebook {
+    color: #1445a7;
+}
+
+.fa-whatsapp {
+    color: #38aa29;
+}
+
+.fa-linkedin {
+    color: #0077b5;
+}
+
+.fa-twitter {
+    color: #0084b4;
+}
+
+.secondary-color {
+    background-color: hsl(0, 7%, 66%);
+}
+
+.aside-heading {
+    border-left: 3px solid black;
+}
+
+.author {
+    font-size: 0.9rem;
+}
+
+.author p {
+    font-size: 0.9rem;
+}
+
+.author-social-links a {
+    color: black;
+    margin-left: 0.8rem;
+}
+
+.badges {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.badges>a {
+    margin: 0.2rem;
+    margin-left: 0.5rem;
+    padding: 0.5 rem;
+    display: inline-block;
+    color: black;
+    background-color: rgb(5, 161, 201);
+    text-decoration: none;
+}

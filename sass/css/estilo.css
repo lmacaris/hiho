@@ -427,29 +427,26 @@ button {
   background-color: #f1f1f1;
   overflow: hidden;
   padding: 100px 0; }
-
-.inner-section {
-  width: 50%;
-  float: right;
-  background-color: #fdfdfd;
-  padding: 150px;
-  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
-  line-break: anywhere; }
-
-.inner-section h1 {
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 30px;
-  font-weight: 900;
-  background-color: #fdfdfd; }
-
-.text {
-  font-size: 16px;
-  color: #545454;
-  line-height: 30px;
-  text-align: justify;
-  margin-bottom: 40px;
-  background-color: #fdfdfd; }
+  .about .inner-section {
+    width: 50%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+    line-break: anywhere; }
+    .about .inner-section h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 30px;
+      font-weight: 900;
+      background-color: #fdfdfd; }
+    .about .inner-section .text {
+      font-size: 16px;
+      color: #545454;
+      line-height: 30px;
+      text-align: justify;
+      margin-bottom: 40px;
+      background-color: #fdfdfd; }
 
 @media screen and (max-width: 1200px) {
   .inner-section {
@@ -478,112 +475,88 @@ button {
 ------------------------- inicio Blog ---------------------- */
 .todito {
   font-family: "Raleway", sans-serif; }
-
-.todito h1,
-h2,
-h3,
-h4,
-h5 {
-  font-weight: 700; }
-
-h3 {
-  font-size: 1.5rem; }
+  .todito h1 {
+    font-weight: 700; }
+  .todito h2 {
+    font-weight: 700; }
+  .todito h3 {
+    font-weight: 700;
+    font-size: 1.5rem; }
+  .todito h4 {
+    font-weight: 700; }
+  .todito h5 {
+    font-weight: 700; }
 
 /*------------- HERO -----------------*/
 img {
   filter: grayscale(50%) brightness(0.8); }
-
-img:hover {
-  filter: none;
-  transition: 0.5s; }
-
-img.rounded-circle {
-  filter: none;
-  border: 2px solid #ffffff; }
+  img:hover {
+    filter: none;
+    transition: 0.5s; }
 
 .hero {
   background-color: #d9dfe4; }
-
-.hero-post {
-  position: relative; }
-
-.hero-post-badges {
-  position: absolute;
-  text-align: center;
-  top: 10px;
-  right: 10px; }
-
-.hero-post-badges a {
-  display: block;
-  text-decoration: none;
-  color: #fff;
-  background-color: rgba(0, 135, 169, 0.466);
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  font-weight: bold; }
+  .hero .container .hero-post {
+    position: relative; }
+    .hero .container .hero-post .hero-post-badges {
+      position: absolute;
+      text-align: center;
+      top: 10px;
+      right: 10px; }
+      .hero .container .hero-post .hero-post-badges a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        background-color: rgba(0, 135, 169, 0.466);
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        font-weight: bold; }
 
 .hero-post-content {
   position: absolute;
   bottom: 10px;
   color: #fff; }
-
-.hero-post-content img {
-  border: 2px solid #fff; }
+  .hero-post-content img {
+    border: 2px solid #fff; }
+  .hero-post-content .rounded-circle {
+    border: 2px solid #ffffff;
+    filter: none; }
 
 /**************MAIN BLOG ***********************/
 .blog-posts {
   background-color: #ededee;
   color: #111; }
-
-.blog-post {
-  background-color: #ffffff; }
-
-.blog-post img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
-
-.blog-post a {
-  color: #34495e; }
-
-.blog-post p {
-  font-size: 0.9rem; }
-
-.blog-post .col-sm-8 {
-  border-left: 3px solid black; }
-
-.badge {
-  padding-top: 1rem;
-  padding-bottom: 1rem; }
-
-.badge > a {
-  margin-left: 0.5rem;
-  padding: 0.5 rem;
-  color: black;
-  background-color: #05a1c9;
-  text-decoration: none; }
+  .blog-posts .blog-post {
+    background-color: #ffffff;
+    /*********************ASIDE *********************/ }
+    .blog-posts .blog-post img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .blog-posts .blog-post a {
+      color: #34495e; }
+    .blog-posts .blog-post p {
+      font-size: 0.9rem; }
+    .blog-posts .blog-post .col-sm-8 {
+      border-left: 3px solid black; }
+    .blog-posts .blog-post .badge {
+      padding-top: 1rem;
+      padding-bottom: 1rem; }
+      .blog-posts .blog-post .badge a {
+        margin-left: 0.5rem;
+        padding: 0.5 rem;
+        color: black;
+        background-color: #05a1c9;
+        text-decoration: none; }
 
 /**************** ASIDE *****************/
-.social-links a {
-  color: black;
-  font-size: 1.5rem; }
-
 .social-links {
   background-color: #dbd7d7;
   color: black;
   font-size: 1rem; }
-
-.fa-facebook {
-  color: #1445a7; }
-
-.fa-whatsapp {
-  color: #38aa29; }
-
-.fa-linkedin {
-  color: #0077b5; }
-
-.fa-twitter {
-  color: #0084b4; }
+  .social-links a {
+    color: black;
+    font-size: 1.5rem; }
 
 .secondary-color {
   background-color: #aea2a2; }
@@ -593,23 +566,28 @@ img.rounded-circle {
 
 .author {
   font-size: 0.9rem; }
-
-.author p {
-  font-size: 0.9rem; }
-
-.author-social-links a {
-  color: black;
-  margin-left: 0.8rem; }
+  .author p {
+    font-size: 0.9rem; }
+  .author .author-social-links a {
+    color: black;
+    margin-left: 0.8rem; }
+    .author .author-social-links a .fa-facebook {
+      color: #1445a7; }
+    .author .author-social-links a .fa-whatsapp {
+      color: #38aa29; }
+    .author .author-social-links a .fa-linkedin {
+      color: #0077b5; }
+    .author .author-social-links a .fa-twitter {
+      color: #0084b4; }
 
 .badges {
   padding-top: 1rem;
   padding-bottom: 1rem; }
-
-.badges > a {
-  margin: 0.2rem;
-  margin-left: 0.5rem;
-  padding: 0.5 rem;
-  display: inline-block;
-  color: black;
-  background-color: #05a1c9;
-  text-decoration: none; }
+  .badges a {
+    margin: 0.2rem;
+    margin-left: 0.5rem;
+    padding: 0.5 rem;
+    display: inline-block;
+    color: black;
+    background-color: #05a1c9;
+    text-decoration: none; }

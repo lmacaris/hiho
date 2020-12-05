@@ -591,3 +591,13 @@ img {
     color: black;
     background-color: #05a1c9;
     text-decoration: none; }
+
+/*****************CURSOS*******************/
+.list-unstyled li {
+  color: #000; }
+
+.btn {
+  color: #fff;
+  background-color: #0088a9; }
+  .btn:hover {
+    background-color: #125a4e; }

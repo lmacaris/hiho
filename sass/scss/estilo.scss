@@ -787,3 +787,20 @@ img {
         text-decoration: none;
     }
 }
+
+
+/*****************CURSOS*******************/
+
+.list-unstyled {
+    li {
+        color: #000;
+    }
+}
+
+.btn {
+    color: #fff;
+    background-color: rgba(0, 136, 169, 1);
+    &:hover {
+        background-color: #125a4e;
+    }
+}

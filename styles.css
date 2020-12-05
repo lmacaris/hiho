@@ -37,15 +37,14 @@ header {
 }
 
 .logo {
-    max-width: 400px;
-    height: 100px;
+    max-width: 500px;
+    height: 120px;
     filter: none;
     right: 30px;
 }
 
 .nav__links {
     list-style: none;
-    display: flex;
 }
 
 .nav__links li {
@@ -787,6 +786,10 @@ img.rounded-circle {
 .btn:hover {
     background-color: #125a4e;
     transition: 0.2s;
+}
+
+.footerlogo {
+    filter: none;
 }
 
 

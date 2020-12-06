@@ -315,7 +315,7 @@ button {
 
 @media screen and (min-width: 319px) {
   body {
-    width: 203%; }
+    width: 100%; }
   .footer .footerlogo {
     left: 10%; } }
 

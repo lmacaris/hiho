@@ -804,3 +804,129 @@ img {
         background-color: #125a4e;
     }
 }
+
+
+/********************* PRELOADER ******************/
+
+.preload {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: #24252A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease;
+    .busofot {
+        width: 700px;
+        height: 700px;
+        position: absolute;
+    }
+    h3 {
+        position: absolute;
+        top: 75%;
+        transform: translateY( -75%);
+        color: #fff;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .burbuja1 {
+        top: 10%;
+        left: 58%;
+        height: 200px;
+        position: absolute;
+        animation: bubble 1s ease infinite alternate;
+    }
+    .burbuja2 {
+        top: 75%;
+        left: 20%;
+        height: 200px;
+        position: absolute;
+    }
+    .burbuja3 {
+        top: 75%;
+        right: 20%;
+        height: 200px;
+        position: absolute;
+    }
+    .burbuja4 {
+        top: 20%;
+        left: 10%;
+        height: 200px;
+        position: absolute;
+    }
+    .burbuja5 {
+        top: 20%;
+        right: 10%;
+        height: 200px;
+        position: absolute;
+    }
+    .fish1 {
+        height: 100px;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        top: 15%;
+        transform: translate(100%);
+        animation: fish 3s ease infinite 1.3s;
+    }
+    .fish2 {
+        height: 100px;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        top: 40%;
+        transform: translate(100%);
+        animation: fish 3s ease infinite 3.5s;
+    }
+    .fish3 {
+        height: 100px;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        top: 75%;
+        transform: translate(100%);
+        animation: fish 3s ease infinite 2.5s;
+    }
+    .coral1 {
+        height: 200px;
+        position: absolute;
+        top: 80%;
+    }
+    .coral2 {
+        height: 200px;
+        position: absolute;
+        top: 80%;
+        right: 10%;
+    }
+    .coral3 {
+        height: 200px;
+        position: absolute;
+        top: 80%;
+        left: 5%;
+    }
+}
+
+@keyframes bubble {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-50px);
+    }
+}
+
+@keyframes fish {
+    from {
+        right: 0;
+    }
+    to {
+        right: 130%;
+    }
+}
+
+.preload-finish {
+    opacity: 0;
+    pointer-events: none;
+}

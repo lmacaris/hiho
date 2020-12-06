@@ -1,0 +1,192 @@
+[33mcommit 972215db49d27c55d668b239cb866f351b9e934c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sun Dec 6 01:00:08 2020 +0100
+
+    version 0.3 error contacto
+
+[33mcommit fb0cd0c3dcd82ce6f9d2bbeb554fd0541bd4587e[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sun Dec 6 00:58:50 2020 +0100
+
+    version 0.2 aun con problemas en node_modes4
+
+[33mcommit 5098e20f09683a498cce6e02f8144e0316d634e7[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sun Dec 6 00:54:48 2020 +0100
+
+    version 0.2 aun con problemas en node_modes3
+
+[33mcommit 55cfb1851d0dc6f1b6a9dc6de24b47486afd5339[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sun Dec 6 00:41:02 2020 +0100
+
+    version 0.2 aun con problemas en node_modes2
+
+[33mcommit 36649806d5f5262fc95c021e4cc65af3878f262b[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sun Dec 6 00:40:10 2020 +0100
+
+    version 0.2 aun con problemas en node_modes
+
+[33mcommit e1b49c4a13225529c39a374f3471ffce5fbbfaff[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sun Dec 6 00:32:55 2020 +0100
+
+    version 0.1 - error node_modulesv5
+
+[33mcommit 4552e91f2fcb6316d0665f000b8b305eca6897f8[m
+Merge: 6a20ce2 210a329
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sun Dec 6 00:27:08 2020 +0100
+
+    Merge branch 'main' of https://github.com/laladiosa/hiho into main
+
+[33mcommit 6a20ce21b60a8aade9a912e360c5f155500a647b[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sun Dec 6 00:25:34 2020 +0100
+
+    version 0.1 - error node_modulesv3
+
+[33mcommit 210a329842044f164958453f5f926ac5b9cae8a2[m
+Author: laladiosa <67509737+laladiosa@users.noreply.github.com>
+Date:   Sun Dec 6 00:22:04 2020 +0100
+
+    Delete styles.css
+
+[33mcommit 60d23ada5b4328a4b23c9e2e1f55fc7de50aaeba[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sun Dec 6 00:16:12 2020 +0100
+
+    version 0.1 - error node_modulesv2
+
+[33mcommit 42faac9225ff6d7bb25298faf6c3746b91b2f549[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sun Dec 6 00:10:23 2020 +0100
+
+    version 0.1 - error node_modules
+
+[33mcommit ac14b0b954e1928229c4eb411677d7decd1a9e20[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sun Dec 6 00:02:25 2020 +0100
+
+    version 0.1 - Agregando logos secciones y dando toques finales v3
+
+[33mcommit 4e5d536e8a986720de5ad0d792ce72ed4ae73c2c[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 23:54:29 2020 +0100
+
+    version 0.1 - Agregando logos secciones y dando toques finales v2
+
+[33mcommit 5bbf0f12b866410f27459bd4a31b013985de75e2[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 23:52:14 2020 +0100
+
+    version 0.1 - Agregando logos secciones y dando toques finales
+
+[33mcommit 7be5d926c09c01a2e863f730d5297493d8f25503[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 17:56:16 2020 +0100
+
+    version 0.0.10 cambiando logos
+
+[33mcommit 3d38aa14ab7f53f05fa1e25889559bb8e30962c3[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 17:52:22 2020 +0100
+
+    version 0.0.9 agregando sass en contacto v4 error
+
+[33mcommit c40b2dbd88126b39bf9186e77ba54d5df931f6ed[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 17:50:02 2020 +0100
+
+    version 0.0.9 agregando sass en contacto v3 error
+
+[33mcommit 64362847c20176122b877203f72bfcff52f035c6[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 17:45:31 2020 +0100
+
+    version 0.0.9 agregando sass en contacto v3
+
+[33mcommit 4ce727ff77c584d81582ae6dc542cca08d9ed680[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 17:44:47 2020 +0100
+
+    version 0.0.9 agregando sass en contacto v2
+
+[33mcommit 344d16224f162510ee22a794faacaeabfba9226c[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 17:40:29 2020 +0100
+
+    version 0.0.9 agregando sass en contacto
+
+[33mcommit 1b46bb5696a5d07ff571ae8ca0b63e2cb65264a9[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 17:15:54 2020 +0100
+
+    version 0.0.8 agregando sass en index
+
+[33mcommit 8fa2f0eecb4262955c2a0460911c899b19443a45[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 14:31:36 2020 +0100
+
+    version 0.0.7 agregando sass
+
+[33mcommit ea8bf400e94f3f6f537eab90a86c4cadb7f96c67[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 13:17:45 2020 +0100
+
+    version 0.0.6 responsive mobile first intento 2
+
+[33mcommit 95b83585092bb20b3731c7e0bd69b513e62c5a75[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 13:10:34 2020 +0100
+
+    version 0.0.6 responsive mobile first v4
+
+[33mcommit 434ec94fd9f67b95052d77a6a682e77ba4dd913c[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 13:05:11 2020 +0100
+
+    version 0.0.6 responsive mobile first v3
+
+[33mcommit 6d4ffd5fa18a8def4891b356f23465cbe1945477[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 12:54:49 2020 +0100
+
+    version 0.0.6 responsive mobile first v2
+
+[33mcommit 01264451ce91f0dcc8a62f76d3498804ff333910[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 12:46:59 2020 +0100
+
+    version 0.0.6 responsive mobile first
+
+[33mcommit b5b28588d2b9434cb1abe02c50f75590061b78ba[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 12:18:07 2020 +0100
+
+    version 0.0.5 cambios en posicion logo y nav
+
+[33mcommit 4fa073a5f86c7672c068ab23647ade61ca1b0e5f[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 02:24:06 2020 +0100
+
+    version 0.0.4 ajustando logos
+
+[33mcommit eac3d39ce23af0b2e41f2713f76c69940d3dcf8f[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 02:13:30 2020 +0100
+
+    version 0.0.3 agregando logos
+
+[33mcommit d8fef1d8a7d9b2358e780fada1816b034659f1ed[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 00:44:11 2020 +0100
+
+    version 0.0.2 Proyecto
+
+[33mcommit 2974d10d1066ef1c3a20ea54e92b54596296d344[m
+Author: el hiho <hihi.cod@gmail.com>
+Date:   Sat Dec 5 00:39:28 2020 +0100
+
+    first commit

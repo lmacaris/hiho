@@ -291,35 +291,36 @@ button {
   .navfondo {
     width: 100%; }
   .body {
-    width: fit-content; } }
-
-@media screen and (max-width: 576px) {
-  .testimonial-section {
-    width: 100%; }
-  .navfondo {
-    width: 100%; }
-  .body {
-    width: min-content; } }
+    width: 100%; } }
 
 @media screen and (max-width: 426px) {
   .testimonial-section {
     width: 100%; }
   body {
-    width: fit-content; } }
+    width: 68vh; } }
 
-@media screen and (max-width: 376px) {
-  .testimonial-section {
-    width: 100%; }
-  body {
-    width: min-content; } }
+/*@media screen and (max-width: 376px) {
+    .testimonial-section {
+        width: 100%;
+    }
+    body {
+        width: min-content;
+    }
+}
 
 @media screen and (max-width: 321px) {
-  body {
-    width: min-content; }
-  .footer .footerlogo {
-    left: 10%; } }
+    body {
+        width: min-;
+    }
+    .footer {
+        .footerlogo {
+            left: 10%;
+        }
+    }
+}
 
-/******************** RESPONSIVE INDEX *************/
+
+******************* RESPONSIVE INDEX *************/
 /* -------------------FIN INICIO ---------*/
 /************FOOTER*******************/
 .footer {

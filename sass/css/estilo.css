@@ -299,7 +299,7 @@ button {
   .navfondo {
     width: 100%; }
   .body {
-    width: fit-content; } }
+    width: min-content; } }
 
 @media screen and (max-width: 426px) {
   .testimonial-section {
@@ -311,11 +311,11 @@ button {
   .testimonial-section {
     width: 100%; }
   body {
-    width: 100%; } }
+    width: min-content; } }
 
-@media screen and (min-width: 319px) {
+@media screen and (max-width: 321px) {
   body {
-    width: 100%; }
+    width: min-content; }
   .footer .footerlogo {
     left: 10%; } }
 

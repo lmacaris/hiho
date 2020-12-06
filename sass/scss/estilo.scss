@@ -402,18 +402,23 @@ button {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     .testimonial-section {
         width: 100%;
     }
     body {
-        width: fit-content;
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 319px) {
     body {
-        max-width: fit-content;
+        width: 203%;
+    }
+    .footer {
+        .footerlogo {
+            left: 10%;
+        }
     }
 }
 
@@ -451,6 +456,9 @@ button {
     }
     .footerlogo {
         filter: none;
+    }
+    .col-md-4 {
+        text-align: center;
     }
 }
 
@@ -586,7 +594,8 @@ button {
     }
 }
 
-@media screen and (max-width: 1200px) {
+
+/*@media screen and (max-width: 1200px) {
     .inner-section {
         padding: 80px;
     }
@@ -618,6 +627,7 @@ button {
         padding-top: 20px;
     }
 }
+ */
 
 
 /* ---------------------- final quienes somos -----------------

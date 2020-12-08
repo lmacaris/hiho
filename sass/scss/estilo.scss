@@ -26,6 +26,7 @@ button {
     padding-bottom: 10px;
     padding-top: 10px;
     width: 100%;
+    max-width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,6 +78,7 @@ button {
 /**********************VIDEO ANIMACION *************/
 
 .container__fondito {
+    max-width: auto;
     .container__video {
         .atras {
             position: center center;
@@ -324,7 +326,17 @@ button {
 }
 
 
-/******************** RESPONSIVE INDEX *************/
+/******************** RESPONSIVE *************/
+
+@media screen and (max-width: 2200px) {
+    .testimonial-section {
+        width: 100%;
+    }
+    .container__texto {
+        width: 85%;
+        top: 50%;
+    }
+}
 
 @media screen and (max-width: 1400px) {
     .testimonial-section {
@@ -334,26 +346,17 @@ button {
         width: 85%;
         top: 50%;
     }
-    .body {
-        width: fit-content;
-    }
 }
 
 @media screen and (max-width: 1200px) {
     .testimonial-section {
         width: 100%;
     }
-    .body {
-        width: fit-content;
-    }
 }
 
 @media screen and (max-width: 1024px) {
     .container__texto {
         display: none;
-    }
-    .body {
-        width: fit-content;
     }
 }
 
@@ -362,10 +365,19 @@ button {
         width: 100%;
     }
     .navfondo {
+        width: 100vh;
+    }
+    .container__fondito {
+        width: 100vh;
+    }
+    .exp {
         width: 100%;
     }
     .body {
-        width: fit-content;
+        width: 620px;
+    }
+    .preload {
+        width: 67vh;
     }
 }
 
@@ -374,10 +386,19 @@ button {
         width: 100%;
     }
     .navfondo {
+        width: 100vh;
+    }
+    .container__fondito {
+        width: 100vh;
+    }
+    .exp {
         width: 100%;
     }
     .body {
-        width: 100%;
+        width: 620px;
+    }
+    .preload {
+        width: 67vh;
     }
 }
 
@@ -385,34 +406,52 @@ button {
     .testimonial-section {
         width: 100%;
     }
-    body {
-        width: 68vh;
+    .navfondo {
+        width: 100vh;
+    }
+    .container__fondito {
+        width: 100vh;
+    }
+    .exp {
+        width: 100%;
+    }
+    .body {
+        width: 620px;
+    }
+    .preload {
+        width: 67vh;
     }
 }
 
-
-/*@media screen and (max-width: 376px) {
+@media screen and (max-width: 320px) {
     .testimonial-section {
         width: 100%;
     }
+    .navfondo {
+        width: 100vh;
+    }
+    .container__fondito {
+        width: 100vh;
+    }
+    .exp {
+        width: 100%;
+    }
     body {
-        width: min-content;
+        width: 620px;
+    }
+    .preload {
+        width: 67vh;
+    }
+    .img-fluid {
+        height: 573px;
+    }
+    .todito {
+        width: 886px;
     }
 }
 
-@media screen and (max-width: 321px) {
-    body {
-        width: min-;
-    }
-    .footer {
-        .footerlogo {
-            left: 10%;
-        }
-    }
-}
 
-
-******************* RESPONSIVE INDEX *************/
+/******************* RESPONSIVE INDEX *************/
 
 
 /* -------------------FIN INICIO ---------*/
@@ -448,6 +487,10 @@ button {
     }
     .col-md-4 {
         text-align: center;
+        ul {
+            list-style: none;
+            ;
+        }
     }
 }
 
@@ -548,7 +591,6 @@ button {
     align-items: center;
     justify-content: center;
     background-color: #24252A;
-    width: auto;
 }
 
 .about {

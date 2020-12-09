@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@300&display=swap');
+@import "mixins";
+@import "variables";
+@import "maps";
+@import "for";
 * {
     margin: 0;
     padding: 0;
@@ -58,21 +63,23 @@ button {
     button {
         margin-right: 40px;
         padding: 9px 25px;
-        background-color: rgba(0, 136, 169, 1);
+        background-color: $boton;
         border: none;
         border-radius: 50px;
         cursor: pointer;
         transition: all 0.3s ease 0s;
         font-size: 18px;
         &:hover {
-            background-color: #125a4e;
+            background-color: $botonhover;
         }
     }
 }
 
 
-/* -------------------Navbars ---------
-*******************Inicio*******************************************/
+/* -------------------Navbars ---------*/
+
+
+/*******************Inicio*******************************************/
 
 
 /**********************VIDEO ANIMACION *************/
@@ -135,7 +142,7 @@ button {
             text-transform: uppercase;
             font-weight: bold;
             color: black;
-            -webkit-text-fill-color: rgba(0, 136, 169, 1);
+            -webkit-text-fill-color: $boton;
             /* Will override color (regardless of order) */
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: #fff;
@@ -309,7 +316,7 @@ button {
     }
     a {
         font-size: 14px;
-        background-color: rgba(0, 136, 169, 1);
+        background-color: $boton;
         padding: 10px 20px;
         color: white;
         transition: all 0.5 ease-in;
@@ -318,7 +325,7 @@ button {
             font-size: 14px;
             border: 1px solid #33494e;
             border-top-right-radius: 20px;
-            background-color: #125a4e;
+            background-color: $botonhover;
             color: #fff;
             transition: 0.5s;
         }
@@ -328,163 +335,7 @@ button {
 
 /******************** RESPONSIVE *************/
 
-@media screen and (max-width: 2560px) {
-    .testimonial-section {
-        width: 100%;
-    }
-    .container__texto {
-        width: 85%;
-        top: 50%;
-    }
-    .inner-section {
-        width: 70% !important;
-        height: 800px;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .testimonial-section {
-        width: 100%;
-    }
-    .container__texto {
-        width: 85%;
-        top: 50%;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .testimonial-section {
-        width: 100%;
-    }
-    .inner-section {
-        width: 70% !important;
-        padding-bottom: 100px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .container__texto {
-        display: none;
-    }
-    .inner-section {
-        width: 70% !important;
-        padding-bottom: 100px;
-    }
-}
-
-@media screen and (max-width:860px) {
-    .testimonial-section {
-        width: 100%;
-    }
-    .navfondo {
-        width: 100vh;
-    }
-    .container__fondito {
-        width: 100vh;
-    }
-    .exp {
-        width: 100%;
-    }
-    body {
-        width: 886px;
-    }
-    .preload {
-        width: 100vh;
-    }
-    .container {
-        width: 886px;
-    }
-    .contact-section {
-        width: 100vh;
-    }
-    .inner-section {
-        width: 70% !important;
-        padding-bottom: 100px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .testimonial-section {
-        width: 100%;
-    }
-    .navfondo {
-        width: 100vh;
-    }
-    .container__fondito {
-        width: 100vh;
-    }
-    .exp {
-        width: 100%;
-    }
-    body {
-        width: 886px;
-    }
-    .preload {
-        width: 886px;
-    }
-    .container {
-        width: 886px;
-    }
-    .contact-section {
-        width: 100vh;
-    }
-}
-
-@media screen and (max-width: 426px) {
-    .testimonial-section {
-        width: 100%;
-    }
-    .navfondo {
-        width: 100%;
-    }
-    .container__fondito {
-        width: 100%;
-    }
-    .exp {
-        width: 100%;
-    }
-    body {
-        width: 886px;
-    }
-    .preload {
-        width: 67vh;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .testimonial-section {
-        width: 100%;
-    }
-    .navfondo {
-        width: 100vh;
-    }
-    .container__fondito {
-        width: 100%;
-    }
-    .exp {
-        width: 100%;
-    }
-    body {
-        width: 886px;
-    }
-    .preload {
-        width: 100vh;
-    }
-    .container {
-        width: 100vh;
-    }
-    .footer {
-        width: 100%;
-    }
-    .contact-section {
-        width: 100vh;
-        height: auto;
-    }
-    article img {
-        width: 200px;
-    }
-}
-
+@include responsive;
 
 /******************* RESPONSIVE INDEX *************/
 
@@ -511,9 +362,9 @@ button {
     .btn {
         color: #fff;
         border: none;
-        background-color: rgba(0, 136, 169, 1);
+        background-color: $boton;
         &:hover {
-            background-color: #125a4e;
+            background-color: $botonhover;
             transition: 0.2s;
         }
     }
@@ -588,7 +439,7 @@ button {
         .contact-form-btn {
             float: left;
             border: 0;
-            background: rgba(0, 136, 169, 1);
+            background: $boton;
             color: #fff;
             padding: 12px 50px;
             border: 20px;
@@ -596,13 +447,13 @@ button {
             transition: 0.5s;
             margin: 37px;
             &:hover {
-                background: #125a4e;
+                background: $botonhover;
             }
         }
         .contact-form-enviar {
             float: left;
             border: 0;
-            background: rgba(0, 136, 169, 1);
+            background: $boton;
             color: #fff;
             padding: 12px 50px;
             border: 20px;
@@ -610,7 +461,7 @@ button {
             transition: 0.5s;
             margin: 37px;
             &:hover {
-                background: #125a4e;
+                background: $botonhover;
             }
         }
     }
@@ -636,10 +487,10 @@ button {
         line-break: anywhere;
         height: 700px;
         h1 {
+            font-family: 'Montserrat', sans-serif;
             text-align: center;
             margin-bottom: 30px;
-            font-size: 30px;
-            font-weight: 900;
+            font-size: 1rem;
             background-color: #fdfdfd;
         }
         .text {
@@ -654,7 +505,29 @@ button {
 }
 
 
-/*@media screen and (max-width: 1200px) {
+/*$colors: ( frey: #D16E8D,
+rukaku: #FFAC83,
+muller: #3F78C9,
+josef: #49C4A3,
+tongariro: #0c3822,
+rampa1: rgb(18,
+29,
+75),
+rampa2: #f45cdc,
+rampa3: #242e3b,
+rampa4: #a1a1a1,
+rampa5: #c0f36f,
+);
+@each $name,
+$color in $colors {
+    .#{$name} {
+        color: $color;
+        font-size: 28px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
     .inner-section {
         padding: 80px;
     }
@@ -868,9 +741,9 @@ img {
 
 .btn {
     color: #fff;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: $boton;
     &:hover {
-        background-color: #125a4e;
+        background-color: $botonhover;
     }
 }
 
@@ -886,6 +759,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
     transition: opacity 0.5s ease;
     .busofot {
         width: 700px;

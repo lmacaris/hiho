@@ -59,8 +59,8 @@ button {
     .navfondo button:hover {
       background-color: #125a4e; }
 
-/* -------------------Navbars ---------
-*******************Inicio*******************************************/
+/* -------------------Navbars ---------*/
+/*******************Inicio*******************************************/
 /**********************VIDEO ANIMACION *************/
 .container__fondito {
   max-width: auto; }
@@ -346,7 +346,7 @@ button {
   .testimonial-section {
     width: 100%; }
   .navfondo {
-    width: 100vh; }
+    width: 100%; }
   .container__fondito {
     width: 100%; }
   .exp {
@@ -362,8 +362,8 @@ button {
   .contact-section {
     width: 100vh;
     height: auto; }
-  article img {
-    width: 200px; } }
+  .imgArt {
+    width: 400px; } }
 
 /******************* RESPONSIVE INDEX *************/
 /* -------------------FIN INICIO ---------*/
@@ -492,6 +492,46 @@ button {
       text-align: justify;
       margin-bottom: 40px;
       background-color: #fdfdfd; }
+
+.frey {
+  color: #D16E8D;
+  font-size: 28px; }
+
+.rukaku {
+  color: #FFAC83;
+  font-size: 28px; }
+
+.muller {
+  color: #3F78C9;
+  font-size: 28px; }
+
+.josef {
+  color: #49C4A3;
+  font-size: 28px; }
+
+.tongariro {
+  color: #0c3822;
+  font-size: 28px; }
+
+.rampa1 {
+  color: #121d4b;
+  font-size: 28px; }
+
+.rampa2 {
+  color: #f45cdc;
+  font-size: 28px; }
+
+.rampa3 {
+  color: #242e3b;
+  font-size: 28px; }
+
+.rampa4 {
+  color: #a1a1a1;
+  font-size: 28px; }
+
+.rampa5 {
+  color: #c0f36f;
+  font-size: 28px; }
 
 /*@media screen and (max-width: 1200px) {
     .inner-section {
@@ -667,6 +707,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
   transition: opacity 0.5s ease; }
   .preload .busofot {
     width: 700px;

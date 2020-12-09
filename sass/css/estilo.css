@@ -258,12 +258,15 @@ button {
       transition: 0.5s; }
 
 /******************** RESPONSIVE *************/
-@media screen and (max-width: 2200px) {
+@media screen and (max-width: 2560px) {
   .testimonial-section {
     width: 100%; }
   .container__texto {
     width: 85%;
-    top: 50%; } }
+    top: 50%; }
+  .inner-section {
+    width: 70% !important;
+    height: 800px; } }
 
 @media screen and (max-width: 1400px) {
   .testimonial-section {
@@ -274,59 +277,19 @@ button {
 
 @media screen and (max-width: 1200px) {
   .testimonial-section {
-    width: 100%; } }
+    width: 100%; }
+  .inner-section {
+    width: 70% !important;
+    padding-bottom: 100px; } }
 
 @media screen and (max-width: 1024px) {
   .container__texto {
-    display: none; } }
+    display: none; }
+  .inner-section {
+    width: 70% !important;
+    padding-bottom: 100px; } }
 
 @media screen and (max-width: 860px) {
-  .testimonial-section {
-    width: 100%; }
-  .navfondo {
-    width: 100vh; }
-  .container__fondito {
-    width: 100vh; }
-  .exp {
-    width: 100%; }
-  .body {
-    width: 886px; }
-  .preload {
-    width: 100vh; }
-  .container {
-    width: 886px; } }
-
-@media screen and (max-width: 600px) {
-  .testimonial-section {
-    width: 100%; }
-  .navfondo {
-    width: 100vh; }
-  .container__fondito {
-    width: 100vh; }
-  .exp {
-    width: 100%; }
-  .body {
-    width: 886px; }
-  .preload {
-    width: 886px; }
-  .container {
-    width: 886px; } }
-
-@media screen and (max-width: 426px) {
-  .testimonial-section {
-    width: 100%; }
-  .navfondo {
-    width: 100vh; }
-  .container__fondito {
-    width: 100vh; }
-  .exp {
-    width: 100%; }
-  .body {
-    width: 886px; }
-  .preload {
-    width: 67vh; } }
-
-@media screen and (max-width: 320px) {
   .testimonial-section {
     width: 100%; }
   .navfondo {
@@ -339,10 +302,68 @@ button {
     width: 886px; }
   .preload {
     width: 100vh; }
-  .img-fluid {
-    height: 573px; }
   .container {
+    width: 886px; }
+  .contact-section {
+    width: 100vh; }
+  .inner-section {
+    width: 70% !important;
+    padding-bottom: 100px; } }
+
+@media screen and (max-width: 600px) {
+  .testimonial-section {
+    width: 100%; }
+  .navfondo {
+    width: 100vh; }
+  .container__fondito {
+    width: 100vh; }
+  .exp {
+    width: 100%; }
+  body {
+    width: 886px; }
+  .preload {
+    width: 886px; }
+  .container {
+    width: 886px; }
+  .contact-section {
     width: 100vh; } }
+
+@media screen and (max-width: 426px) {
+  .testimonial-section {
+    width: 100%; }
+  .navfondo {
+    width: 100%; }
+  .container__fondito {
+    width: 100%; }
+  .exp {
+    width: 100%; }
+  body {
+    width: 886px; }
+  .preload {
+    width: 67vh; } }
+
+@media screen and (max-width: 320px) {
+  .testimonial-section {
+    width: 100%; }
+  .navfondo {
+    width: 100vh; }
+  .container__fondito {
+    width: 100%; }
+  .exp {
+    width: 100%; }
+  body {
+    width: 886px; }
+  .preload {
+    width: 100vh; }
+  .container {
+    width: 100vh; }
+  .footer {
+    width: 100%; }
+  .contact-section {
+    width: 100vh;
+    height: auto; }
+  article img {
+    width: 200px; } }
 
 /******************* RESPONSIVE INDEX *************/
 /* -------------------FIN INICIO ---------*/
@@ -456,7 +477,8 @@ button {
     background-color: #fdfdfd;
     padding: 150px;
     box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
-    line-break: anywhere; }
+    line-break: anywhere;
+    height: 700px; }
     .about .inner-section h1 {
       text-align: center;
       margin-bottom: 30px;

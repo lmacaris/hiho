@@ -290,9 +290,11 @@ button {
   .exp {
     width: 100%; }
   .body {
-    width: 620px; }
+    width: 886px; }
   .preload {
-    width: 67vh; } }
+    width: 100vh; }
+  .container {
+    width: 886px; } }
 
 @media screen and (max-width: 600px) {
   .testimonial-section {
@@ -304,9 +306,11 @@ button {
   .exp {
     width: 100%; }
   .body {
-    width: 620px; }
+    width: 886px; }
   .preload {
-    width: 67vh; } }
+    width: 886px; }
+  .container {
+    width: 886px; } }
 
 @media screen and (max-width: 426px) {
   .testimonial-section {
@@ -318,7 +322,7 @@ button {
   .exp {
     width: 100%; }
   .body {
-    width: 620px; }
+    width: 886px; }
   .preload {
     width: 67vh; } }
 
@@ -332,13 +336,13 @@ button {
   .exp {
     width: 100%; }
   body {
-    width: 620px; }
+    width: 886px; }
   .preload {
-    width: 67vh; }
+    width: 100vh; }
   .img-fluid {
     height: 573px; }
-  .todito {
-    width: 886px; } }
+  .container {
+    width: 100vh; } }
 
 /******************* RESPONSIVE INDEX *************/
 /* -------------------FIN INICIO ---------*/
@@ -439,13 +443,6 @@ button {
 
 /* ------------ final contacto ------------------------
 --------------- inicio quienessomos---------------------------- */
-.body {
-  max-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #24252A; }
-
 .about {
   background: url(../../images2/fondo.jpg) no-repeat left;
   background-size: 55%;

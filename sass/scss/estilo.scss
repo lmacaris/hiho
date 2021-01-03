@@ -1871,6 +1871,20 @@ button {
             }
         }
     }
+    /********Cursos******/
+    .card {
+        .author {
+            font-size: 17px;
+        }
+        .text {
+            font-size: 12px;
+        }
+    }
+    .card--promociones {
+        .author_promocion {
+            font-size: 15px !important;
+        }
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -1968,6 +1982,21 @@ button {
             .boton_volver {
                 font-size: 12px !important;
             }
+        }
+    }
+    /********Cursos******/
+    .card {
+        .author {
+            font-size: 17px;
+        }
+        .text {
+            font-size: 12px;
+            padding-top: 15px;
+        }
+    }
+    .card--promociones {
+        .author_promocion {
+            font-size: 15px !important;
         }
     }
 }

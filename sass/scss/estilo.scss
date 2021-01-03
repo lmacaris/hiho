@@ -274,73 +274,64 @@ button {
 
 /******************** TESTIMONIALS *************/
 
-.exp .testimonial-section {
-    font-family: "Hind", sans-serif;
-    background: #f1f1f1;
-    padding: 80px 0;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-.exp .testimonial-section .inner-width {
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 20px;
-}
-
-.exp .testimonial-section .inner-width .testimonial-pics {
-    padding: 40px;
-}
-
-.exp .testimonial-section .inner-width .testimonial-pics img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 0 20px;
-    filter: grayscale(100%);
-    transition: 0.3s;
-    cursor: pointer;
-}
-
-.exp .testimonial-section .inner-width .testimonial-pics img:hover {
-    filter: none;
-}
-
-.exp .testimonial-section .inner-width .testimonial-pics img .active {
-    filter: none;
-}
-
-.exp .testimonial-section .inner-width h2 {
-    font-weight: 400;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-    font-size: 28px;
-}
-
-.exp .testimonial-section .inner-width .testimonial-contents {
-    max-width: 75%;
-    margin: auto;
-    text-align: center;
-}
-
-.exp .testimonial-section .inner-width .testimonial-contents .testimonial {
-    display: none;
-}
-
-.exp .testimonial-section .inner-width .testimonial-contents .testimonial p {
-    color: #5c5c5c;
-    margin-bottom: 20px;
-}
-
-.exp .testimonial-section .inner-width .testimonial-contents .testimonial .description {
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 15px;
-}
-
-.exp .testimonial-section .inner-width .testimonial-contents .active {
-    display: block;
+.exp {
+    .testimonial-section {
+        font-family: "Hind", sans-serif;
+        background: #f1f1f1;
+        padding: 80px 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        .inner-width {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+            .testimonial-pics {
+                padding: 40px;
+                img {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    margin: 0 20px;
+                    filter: grayscale(100%);
+                    transition: 0.3s;
+                    cursor: pointer;
+                    &:hover {
+                        filter: none;
+                    }
+                    .active {
+                        filter: none;
+                    }
+                }
+            }
+            h2 {
+                font-weight: 400;
+                letter-spacing: 10px;
+                text-transform: uppercase;
+                font-size: 28px;
+            }
+            .testimonial-contents {
+                max-width: 75%;
+                margin: auto;
+                text-align: center;
+                .testimonial {
+                    display: none;
+                    p {
+                        color: #5c5c5c;
+                        margin-bottom: 20px;
+                    }
+                }
+                .description {
+                    text-transform: uppercase;
+                    letter-spacing: 4px;
+                    font-size: 15px;
+                }
+                .active {
+                    display: block;
+                }
+            }
+        }
+    }
 }
 
 
@@ -1623,9 +1614,13 @@ button {
     .navfondo {
         width: 100%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         .logofondo {
-            display: none;
+            background: none;
+            .logo {
+                width: 180px;
+                margin-bottom: 25px;
+            }
         }
     }
     .container__video {

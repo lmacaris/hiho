@@ -1104,7 +1104,8 @@ button {
     justify-content: center;
     height: 100%; }
     .error .error_imagen .error_fondo {
-      width: 70%; }
+      width: 100vh;
+      height: 100%; }
   .error .boton_posicion {
     display: flex;
     justify-content: center;
@@ -1137,6 +1138,9 @@ button {
         transform: translate(10px, -50%);
         opacity: 1;
         text-decoration: none; }
+
+.errorfondo {
+  background: #24252A; }
 
 /************FOOTER*******************/
 .footer {

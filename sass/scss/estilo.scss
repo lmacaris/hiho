@@ -1418,7 +1418,8 @@ button {
         justify-content: center;
         height: 100%;
         .error_fondo {
-            width: 70%;
+            width: 100vh;
+            height: 100%;
         }
     }
     .boton_posicion {
@@ -1459,6 +1460,10 @@ button {
             }
         }
     }
+}
+
+.errorfondo {
+    background: #24252A;
 }
 
 

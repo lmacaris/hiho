@@ -11,7 +11,7 @@
     <!--script- src="http://kit.fontawesome.com/b99e675b6e.js"></!--script-->
 </head>
 
-<body class="todito">
+<body>
     <!-- *************** PRE-LOADER *****************-->
     <div class="preload">
         <img class="busofot" src="images2/6.png" alt="buso">
@@ -31,72 +31,83 @@
     </div>
     <!-- ***************NAV BAR******************** -->
     <header class="navfondo">
-        <a href="index.html"><img class="logo" src="images2/logo1.png" alt="logo"></a>
-        <nav>
-            <ul class="nav__links">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="cursos.html">Cursos</a></li>
-                <li><a href="quienesSomos.html">Quienes somos</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
-        <a class="cta" href="contacto.html"><button>Contacto</button></a>
+        <div class="wrapper">
+            <nav class="nav-container">
+                <div class="hamburger_btn">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <div class="menu">
+                    <ul class="nav__links">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="quienesSomos.html">Nosotros</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="logofondo">
+            <img class="logo" src="images2/loguito.png" alt="logo">
+        </div>
+        <a href="contacto.html"><button>Contacto</button></a>
     </header>
     <!-- ***************FIN NAV BAR******************** -->
     <!-- HERO SECTION-->
-    <section class="hero py-4">
-        <div class="container">
+    <section class="hero pt-5">
+        <div class="container pt-4">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="hero-post shadow">
-                        <img src="images2/fondo.png" class="img-fluid" alt="">
+                        <img src="images2/fondo.png" class="img-fluid img--blog" alt="">
                         <div class="hero-post-badges text-center">
-                            <a class="p-2" href=""><i class="fa fa-calendar-o" aria-hidden="true"></i> 16 Nov 2020</a>
-                            <a class="p-2" href="">Tailandia</a>
+                            <a class="p-2"><i class="fa fa-calendar-o" aria-hidden="true"></i> 15 Dec 2020</a>
+                            <a class="p-2">Tailandia</a>
                         </div>
                         <div class="hero-post-content">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <img src="images2/person_1.png" alt="Author" class="img-fluid rounded-circle">
+                                    <img src="images2/marianofoto.png" alt="Author" class="img-fluid rounded-circle">
                                 </div>
-                                <div class="col-md-9 pt-5">
-                                    <h3>Top 10 lugares para bucear</h3>
+                                <div class="col-md-9 pt-5 texto_escritores">
+                                    <h3>Mitos sobre el buceo</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="hero-post shadow">
-                        <img src="images2/animales.jpeg" class="img-fluid" alt="">
+                    <div class="hero-post shadow my-3">
+                        <img src="images2/animales.jpeg" class="img-fluid img--blog" alt="">
                         <div class="hero-post-badges">
-                            <a class="p-2" href=""><i class="fa fa-calendar-o" aria-hidden="true"></i> 16 Nov 2020</a>
-                            <a class="p-2" href="">Maldivas</a>
+                            <a class="p-2"><i class="fa fa-calendar-o" aria-hidden="true"></i> 16 Nov 2020</a>
+                            <a class="p-2">Maldivas</a>
                         </div>
                         <div class="hero-post-content">
                             <div class="row">
                                 <div class="col-sm-3">
-                                    <img src="images2/person_3.png" alt="Author" class="img-fluid rounded-circle">
+                                    <img src="images2/carlafoto.png" alt="Author" class="img-fluid rounded-circle">
                                 </div>
-                                <div class="col-sm-9">
-                                    <h3>Amigos que podras encontrar!</h3>
+                                <div class="col-sm-9 texto_escritores">
+                                    <h3>Donde bucear</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="hero-post shadow">
-                        <img src="images2/animales2.jpeg" class="img-fluid" alt="">
+                    <div class="hero-post shadow mt-5">
+                        <img src="images2/delfines.jpeg" class="img-fluid img--blog" alt="">
                         <div class="hero-post-badges">
-                            <a class="p-2" href=""><i class="fa fa-calendar-o" aria-hidden="true"></i> 16 Nov 2020</a>
-                            <a class="p-2" href="">Hawai</a>
+                            <a class="p-2"><i class="fa fa-calendar-o" aria-hidden="true"></i> 2 Nov 2020</a>
+                            <a class="p-2">Hawai</a>
                         </div>
                         <div class="hero-post-content">
                             <div class="row">
                                 <div class="col-sm-3">
-                                    <img src="images2/person_2.png" alt="Author" class="img-fluid rounded-circle">
+                                    <img src="images2/chinafoto.png" alt="Author" class="img-fluid rounded-circle">
                                 </div>
-                                <div class="col-sm-9">
-                                    <h3>Manteniendo vida natural</h3>
+                                <div class="col-sm-9 texto_escritores">
+                                    <h3>Fauna marina</h3>
                                 </div>
                             </div>
                         </div>
@@ -104,6 +115,7 @@
                 </div>
             </div>
         </div>
+        <hr class="linea__azul">
     </section>
 
 
@@ -112,18 +124,58 @@
     <section class="blog-posts py-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 mt-4">
+                <div class="col-md-8">
+                    <!----------------------------- Ultima entrada texto ----------------------------------------------------->
+                    <article>
+                        <div class="blog--contenido">
+                            <h3 class="titulo__articulo ">ULTIMA ENTRADA</h3>
+                            <p class="parrafo__articulo">He sido buceador durante casi 20 años e instructor de buceo durante más de 5 años. Aún así, me sorprende escuchar algunos de los mitos sobre por qué la gente no quiere bucear. Algunos de los mitos más comunes incluyen: el buceo
+                                es demasiado difícil; no hay ningún lugar por aquí para bucear; el equipo de buceo cuesta demasiado; o que es demasiado extremo o peligroso. <br> <br> Empecemos por el último, el buceo es demasiado extremo para la persona
+                                común o que es peligroso. Primero, tenemos que entender que ser humano tiene riesgos inherentes que no podemos controlar. Sí, el buceo tiene algunos riesgos. Sin embargo, si está debidamente capacitado y sigue los protocolos
+                                de seguridad que prescriben casi todas las agencias de certificación (es decir, PADI, NAUI, SSI), sus posibilidades de lesiones se reducen drásticamente: su instructor es el principal factor que influirá en su seguridad.
+                                Si el instructor es deficiente en este aspecto, lo más probable es que su experiencia también sea deficiente. <br> <br> En cuanto a ser un deporte extremo, no he visto el buceo patrocinado por Mountain Dew o anunciado en
+                                los X Games, ¡así que no puede ser tan extremo! Dejando a un lado el humor, la razón por la que el buceo recibió la reputación de ser un deporte extremo fue porque el equipo de buceo original no promueve la sensación de
+                                estar cómodo y seguro en el agua. Lo sé porque comencé a bucear con gran parte de este equipo. Pero esos días se ven lejanos en el espejo retrovisor, el equipo de buceo ha evolucionado y nos ayuda a estar más seguros en
+                                el agua, más cómodos y, por lo tanto, con mas confianza. <br> <br> Entonces, ¿el costo o el equipo de buceo son demasiado altos? Recuerde lo que acabo de decir, el equipo adecuado hace maravillas en su capacidad para bucear
+                                con confianza y comodidad. El equipo de buceo debe considerarse un equipo que salva vidas, por lo que aquí la respuesta no siempre es barata. Lo que planeas hacer con tus aventuras de buceo es en lo que deberías basar tus
+                                decisiones de compra. Tampoco es necesario comprar todo a la vez. Puede comprar artículos aquí y allá a medida que haya dinero disponible. De lo contrario, estará alquilando el equipo necesario hasta llegar al punto de
+                                compra. No importa dónde viva, probablemente encontrará una tienda de buceo que lo ayude a tomar esas decisiones. <br> <br> Hay un aspecto físico en el buceo, de eso no hay duda. Por otro lado, también hay un aspecto mental
+                                del buceo. Más personas se obsesionan con el lado mental más que con el lado físico. Cuando te metes en el agua, te pones el regulador en la boca y te deslizas por debajo de las olas, das un paso hacia atrás en la cadena
+                                evolutiva. Una vez que te relajas y te das cuenta de que tienes el tanque lleno de aire, todo se vuelve más fácil. Vamos a hacer que practique habilidades en el agua para superar problemas comunes. La instrucción adecuada
+                                lo ayuda a comprender los problemas comunes que pueden ocurrir bajo el agua y le brinda técnicas para corregir esos problemas. Su instructor también está allí para eliminar muchas de las tensiones físicas que ocurrirán
+                                durante el buceo. Entonces, ¿cómo puede ser esto demasiado difícil? Una vez más, el buceo sufre de una percepción de lo que solía ser, y no de lo que es hoy. <br> <br>
+                            </p>
+                            <p class="parrafo__firma"><em>Mariano Aguilar, 15 Enero 2020.</em></p>
+                        </div>
+                    </article>
+                    <hr class="linea__azul linea__azul--abajo">
                     <article class="blog-post mb-3">
                         <div class="row">
                             <div class="col-sm-4">
-                                <img src="images2/buso.jpeg" alt="" class="img-fluid">
+                                <img src="images2/Blog1.jpg" alt="" class="img-fluid img--blog">
                             </div>
                             <div class="col-sm-8">
-                                <h3 class="m-0 mt-2">Nuestro blog lalalala sadsa</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aliquid alias quasi ullam suscipit iste, obcaecati culpa amet nesciunt excepturi, commodi.</p>
+                                <h3 class="titulos__main">Cómo elegir tu equipamiento</h3>
+                                <p>La elección del equipo siempre es recomendable hacerla junto con un profesional del buceo. El tipo de instrumentos dependerá de donde se realicen las inmersiones.</p>
                                 <div class="badge">
-                                    <a class="p-2" lass="m" href="">Buceo</a>
-                                    <a class="p-2" href="">Tailandia</a>
+                                    <a class="p-2" lass="m" href="error.html">Buceo</a>
+                                    <a class="p-2" href="error.html">Tailandia</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!----------------------------- Ultimas entradas ----------------------------------------------------->
+                    <article class="blog-post mb-3">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img src="images2/Blog2.jpg" alt="" class="img-fluid img--blog">
+                            </div>
+                            <div class="col-sm-8">
+                                <h3 class="titulos__main">Manejar el estrés en situaciones limites</h3>
+                                <p>Algo que repetimos constantemente a nuestros alumnos es la importancia de mantener la calma en el agua. La incomodidad del equipo y de encontrarse tan lejos de la superficie se...</p>
+                                <div class="badge">
+                                    <a class="p-2" href="error.html">Equipo</a>
+                                    <a class="p-2" href="error.html">Vietnam</a>
                                 </div>
                             </div>
                         </div>
@@ -131,128 +183,166 @@
                     <article class="blog-post mb-3">
                         <div class="row">
                             <div class="col-sm-4">
-                                <img src="images2/buso.jpeg" alt="" class="img-fluid">
+                                <img src="images2/Blog3.jpg" alt="" class="img-fluid img--blog">
                             </div>
                             <div class="col-sm-8">
-                                <h3 class="m-0 mt-2">Nuestro blog lalalala sadsa</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aliquid alias quasi ullam suscipit iste, obcaecati culpa amet nesciunt excepturi, commodi.</p>
+                                <h3 class="titulos__main">Dar el primer paso</h3>
+                                <p>Cómo decidimos si el buceo es para nosotros ? La pregunta que todos nos hacemos antes de comenzaar este camino. La respuesta mas simmple es intentándolo</p>
                                 <div class="badge">
-                                    <a class="p-2" href="">Equipo</a>
-                                    <a class="p-2" href="">Vietnam</a>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="blog-post mb-3">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <img src="images2/buso.jpeg" alt="" class="img-fluid">
-                            </div>
-                            <div class="col-sm-8">
-                                <h3 class="m-0 mt-2">Nuestro blog lalalala sadsa</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aliquid alias quasi ullam suscipit iste, obcaecati culpa amet nesciunt excepturi, commodi.</p>
-                                <div class="badge">
-                                    <a class="p-2" href="">Entrenamiento</a>
-                                    <a class="p-2" href="">Laos</a>
+                                    <a class="p-2" href="error.html">Entrenamiento</a>
+                                    <a class="p-2" href="error.html">Laos</a>
                                 </div>
                             </div>
                         </div>
                     </article>
                 </div>
                 <aside class="col-md-4 px-4">
-                    <!-- ALGUNOS LINKS -->
                     <div class=" social-links row text-center">
                         <div class="col-sm-4 pt-5">
-                            <a class="social-link w-100 text-center" href="">
+                            <a class="w-100 text-center" href="error.html">
                                 <i class="fa fa-facebook-official" aria-hidden="true"></i>
                             </a>
                         </div>
                         <div class="col-sm-4 py-5 secondary-color">
-                            <a class="social-link w-100" href="">
+                            <a class="w-100" href="error.html">
                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                             </a>
                         </div>
                         <div class="col-sm-4 py-5">
-                            <a class="social-link w-100" href="">
+                            <a class="w-100" href="error.html">
                                 <i class="fa fa-whatsapp" aria-hidden="true"></i>
                             </a>
                         </div>
                     </div>
                     <h4 class="aside-heading mt-4 mb-3 pl-2">Buceadores Populares</h4>
                     <article class="row author mb-3">
-                        <div class="col-sm-4">
-                            <img src="images2/person_4.png" alt="" class="img-fluid rounded-circle imgArt">
+                        <div class="col-sm-5">
+                            <img src="images2/carlafoto.png" alt="" class="img-fluid rounded-circle imgArt">
                         </div>
-                        <div class="col-sm-8">
-                            <h5>Daniel Sanz</h5>
-                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <div class="col-sm-7 mt-4">
+                            <h5>Carla Martinez</h5>
+                            <p class="m-0">Lista para la aventura.</p>
                             <div class="author-social-links">
-                                <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+
+                            </div>
+                        </div>
+                    </article>
+                    <!-------------------------Buceadores populares------------------------>
+                    <article class="row author mb-3">
+                        <div class="col-sm-5">
+                            <img src="images2/marianofoto.png" alt="" class="img-fluid rounded-circle imgArt">
+                        </div>
+                        <div class="col-sm-7 mt-4">
+                            <h5>Mariano Aguilar</h5>
+                            <p class="m-0">Buzo experimentado. Instructor.</p>
+                            <div class="author-social-links">
+                                <a href="error.html"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 
                             </div>
                         </div>
 
                     </article>
                     <article class="row author mb-3">
-                        <div class="col-sm-4">
-                            <img src="images2/person_5.png" alt="" class="img-fluid rounded-circle imgArt">
+                        <div class="col-sm-5">
+                            <img src="images2/agustinafoto.png" alt="" class="img-fluid rounded-circle imgArt">
                         </div>
-                        <div class="col-sm-8">
-                            <h5>Amanda Ibarra</h5>
-                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <div class="col-sm-7 mt-4">
+                            <h5>Agustina Lares</h5>
+                            <p class="m-0">Buzo táctico.</p>
                             <div class="author-social-links">
-                                <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 
                             </div>
                         </div>
 
                     </article>
                     <article class="row author mb-3">
-                        <div class="col-sm-4">
-                            <img src="images2/person_6.png" alt="" class="img-fluid rounded-circle imgArt">
+                        <div class="col-sm-5">
+                            <img src="images2/hernanfoto.png" alt="" class="img-fluid rounded-circle imgArt">
                         </div>
-                        <div class="col-sm-8">
-                            <h5>Ismael Serrano</h5>
-                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <div class="col-sm-7 mt-4">
+                            <h5>Hernan Litardo</h5>
+                            <p class="m-0">Instructor de Tridente.</p>
                             <div class="author-social-links">
-                                <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+
+                            </div>
+                        </div>
+                    </article>
+                    <article class="row author mb-3">
+                        <div class="col-sm-5">
+                            <img src="images2/chinafoto.png" alt="" class="img-fluid rounded-circle imgArt">
+                        </div>
+                        <div class="col-sm-7 mt-4">
+                            <h5>Micaela Suarez</h5>
+                            <p class="m-0">Pasiones: Surfear, bucear, comer.</p>
+                            <div class="author-social-links">
+                                <a href="error.html"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 
                             </div>
                         </div>
 
                     </article>
                     <article class="row author mb-3">
-                        <div class="col-sm-4">
-                            <img src="images2/person_1.png" alt="" class="img-fluid rounded-circle imgArt">
+                        <div class="col-sm-5">
+                            <img src="images2/damianfoto.png" alt="" class="img-fluid rounded-circle imgArt">
                         </div>
-                        <div class="col-sm-8">
-                            <h5>Pablo Litardo</h5>
-                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <div class="col-sm-7 mt-4">
+                            <h5>Damian Serrano</h5>
+                            <p class="m-0">Fundador de Tridente S.A.</p>
                             <div class="author-social-links">
-                                <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 
                             </div>
                         </div>
 
                     </article>
-                    <h4 class="aside-heading mt-4 mb-3 pl-2">Categorias Poplares</h4>
+                    <article class="row author mb-3">
+                        <div class="col-sm-5">
+                            <img src="images2/danielfoto.png" alt="" class="img-fluid rounded-circle imgArt">
+                        </div>
+                        <div class="col-sm-7 mt-4">
+                            <h5>Daniel Garcia</h5>
+                            <p class="m-0">Fundador de Tridente S.A.</p>
+                            <div class="author-social-links">
+                                <a href="error.html"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                <a href="error.html"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+
+                            </div>
+                        </div>
+                    </article>
+                    <h4 class="aside-heading mt-4 mb-3 pl-2">Categorías Poplares</h4>
                     <div class="badges w-100">
-                        <a class="p-2" href="">Buceo</a>
-                        <a class="p-2" href="">Equipamiento</a>
-                        <a class="p-2" href="">Lugares</a>
-                        <a class="p-2" href="">Corales</a>
-                        <a class="p-2" href="">Arrecifes</a>
-                        <a class="p-2" href="">Tecnicas</a>
-                        <a class="p-2" href="">Vida natural</a>
-                        <a class="p-2" href="">Entrenamiento</a>
+                        <a class="p-2" href="error.html">Buceo</a>
+                        <a class="p-2" href="error.html">Equipamiento</a>
+                        <a class="p-2" href="error.html">Lugares</a>
+                        <a class="p-2" href="error.html">Corales</a>
+                        <a class="p-2" href="error.html">Arrecifes</a>
+                        <a class="p-2" href="error.html">Técnicas</a>
+                        <a class="p-2" href="error.html">Vida natural</a>
+                        <a class="p-2" href="error.html">Entrenamiento</a>
+                        <a class="p-2" href="error.html">Fauna</a>
+                        <a class="p-2" href="error.html">Cartografía</a>
+                        <a class="p-2" href="error.html">Rescate</a>
+                        <a class="p-2" href="error.html">Naufragio</a>
+                        <a class="p-2" href="error.html">Corrientes</a>
+                        <a class="p-2" href="error.html">Salud</a>
+                        <a class="p-2" href="error.html">Playa</a>
+                        <a class="p-2" href="error.html">Pasiones</a>
                     </div>
                 </aside>
             </div>
@@ -260,35 +350,45 @@
     </section>
     <!--------------- FOOTER SECTION -------->
     <footer class="footer py-4">
-        <div class="container">
+        <div class="container__footer">
             <div class="row">
                 <div class="col-md-4">
                     <img src="images2/logofooter.png" alt="" class="footerlogo img-fluid">
                 </div>
-                <div class="col-md-4">
-                    <h4>Ultimas entradas</h4>
+                <div class="col-md-4 pt-4">
+                    <h4>Últimas entradas</h4>
                     <ul>
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="">Terminos y condiciones</a></li>
-                        <li><a href="">Contactanos</a></li>
-                        <li><a href="">Terminos de privacidad</a></li>
-                        <li><a href="">Ultimas noticias</a></li>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="contacto.html">Contactanos</a></li>
+                        <li><a href="blog.html">Últimas noticias</a></li>
+                        <li><a href="error.html">Términos y condiciones</a></li>
+                        <li><a href="error.html">Términos de privacidad</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4">
-                    <h4>Ultimas noticas</h4>
-                    <form class="form-inline my-2 my-lg-0">
+                <div class="col-md-4 pt-4">
+                    <h4>Últimas noticas</h4>
+                    <form class="form-inline my-2 my-lg-0 search__footer">
                         <input class="form-control mr-sm-2" type="shearch" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-0 my-sm-0" type="submit">Search</button>
+                        <a href="error.html"><button class="btn btn-outline-success my-0 my-sm-0" type="submit">Search</button></a>
                     </form>
                 </div>
             </div>
         </div>
-        <div class="w-100 text-center credits">
+        <div class="w-100 text-center">
             <p>Creado por
-                <elhiho href="">elhiho </a>&copy; 2020. Derechos reservados.</p>
+                <a href="error.html">elhiho </a>&copy; 2020. Derechos reservados.</p>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script>
+        $(document).ready(function() {
+            $(".hamburger_btn").click(function() {
+                $(this).toggleClass("active");
+                $(".menu").toggleClass("active");
+            });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx " crossorigin="anonymous "></script>
     <script src="app.js"></script>
 </body>
 

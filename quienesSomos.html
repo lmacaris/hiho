@@ -13,7 +13,7 @@
 <body>
     <!-- *************** PRE-LOADER *****************-->
     <div class="preload">
-        <img class="busofot" src="images2/6.png" alt="buso">
+        <img class="busofot img-fluid" src="images2/6.png" alt="buso">
         <h3>Cargando website...</h3>
         <img class="burbuja1" src="images2/burbuja.png" alt="burbuja1">
         <img class="burbuja2" src="images2/burbuja.png" alt="burbuja2">
@@ -30,60 +30,88 @@
     </div>
     <!-- ***************NAV BAR******************** -->
     <header class="navfondo">
-        <a href="index.html"><img class="logo" src="images2/logo1.png" alt="logo"></a>
-        <nav>
-            <ul class="nav__links">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="cursos.html">Cursos</a></li>
-                <li><a href="quienesSomos.html">Quienes somos</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
-        <a class="cta" href="contacto.html"><button>Contacto</button></a>
-
+        <div class="wrapper">
+            <nav class="nav-container">
+                <div class="hamburger_btn">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <div class="menu">
+                    <ul class="nav__links">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="quienesSomos.html">Nosotros</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="logofondo">
+            <img class="logo" src="images2/loguito.png" alt="logo">
+        </div>
+        <a href="contacto.html"><button>Contacto</button></a>
     </header>
     <!-- ***************HERO******************** -->
     <div class="about">
         <div class="inner-section">
-            <h1>Quienes Somos ?</h1>
-            <p class="text">Lorem ipsum dolor sit, <a class="frey" href=""><strong>BUCEO</strong></a> amet consectetur <a class="rukaku" href=""><strong>AVENTURA</strong></a> adipisicing elit. tenetur ipsam <a class="tongariro"><strong>DIVERCION</strong></a> possimus
-                tempora adipisci <a class="muller" href=""><strong>EXPERIENCIA</strong></a> numquam eligendi illum optio veniam,<a class="josef" href=""><strong>SUMERGITE</strong></a> amet hic omnis nemo! Odit, veniam quisquam! Lorem ipsum dolor sit,
-                <a class="rampa1" href=""><strong>CONOCE</strong></a> amet consectetur <a class="rampa2" href=""><strong>EXPLORA</strong></a> adipisicing elit. tenetur ipsam <a class="rampa3"><strong>VIDA MARINA</strong></a> possimus tempora <a class="rampa4"
-                    href=""><strong>ANIMATE</strong></a> numquam eligendi iste facere animi neque illum optio veniam,<a class="rampa5" href=""><strong>VIVIR</strong></a> amet
-            </p>
+            <h1>Qiuenes somos ?</h1>
+            <p class="inner_text">
+                Tridente comenzó en Febrero del año 2005 cuando tres amigos decidieron comenzar a vivir sus sueños. La empresa nació en la ciudad de Kamala, Tailandia; y desde allí no ha parado de crecer.
+                <br>
+                <br> En el año 2007, una vez desarrollada la parte creativa y financiera, Tridente abría por primera vez sus puertas al público en un pequeño local al que se sumaron un grupo de 5 personas (administració e instrucción). Pronto, ese pequeño
+                lugar se convirtió en una casa, y esa gente en una familia. Los tres visionarios que habían parido esta idea, se convierten en empleados a tiempo completo, poniendo así todas sus fichas en esta compañía. <br> <br> Gracias al esfuerzo y
+                la confianza que nuestro staff generó en el público, Tridente pudo crecer para ubicarse en un nuevo puesto, un nuevo hogar, añadiendo 10 personas más a su nómina permanente y agrandando su familia. En el año 2010, comenzó a ofrecer cursos
+                más variados, y se creo el proyecto de nuestro "instructorship ". <br> <br> En Diciembre 2011, nuestros instructores empiezan a ofrecer este innovador curso en el que no solo se enseña a nuestros clientes, sino que ellos tiene el placer
+                de iniciarse como maestros. Siendo una de las primeras empresas en ofrecer esto, Tridente ganó el respeto y la confianza de su público. </p>
+            <div class="skills">
+                <button>Leer mas</button>
+            </div>
         </div>
+
     </div>
     <!-- ***************FOOTER******************* -->
     <footer class="footer py-4">
-        <div class="container">
+        <div class="container__footer">
             <div class="row">
                 <div class="col-md-4">
                     <img src="images2/logofooter.png" alt="" class="footerlogo img-fluid">
                 </div>
-                <div class="col-md-4">
-                    <h4>Ultimas entradas</h4>
+                <div class="col-md-4 pt-4">
+                    <h4>Últimas entradas</h4>
                     <ul>
                         <li><a href="index.html">Inicio</a></li>
-                        <li><a href="">Terminos y condiciones</a></li>
                         <li><a href="contacto.html">Contactanos</a></li>
-                        <li><a href="">Terminos de privacidad</a></li>
-                        <li><a href="blog.html">Ultimas noticias</a></li>
+                        <li><a href="blog.html">Últimas noticias</a></li>
+                        <li><a href="error.html">Términos y condiciones</a></li>
+                        <li><a href="error.html">Términos de privacidad</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4">
-                    <h4>Ultimas noticas</h4>
-                    <form class="form-inline my-2 my-lg-0">
+                <div class="col-md-4 pt-4">
+                    <h4>Últimas noticas</h4>
+                    <form class="form-inline my-2 my-lg-0 search__footer">
                         <input class="form-control mr-sm-2" type="shearch" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-0 my-sm-0" type="submit">Search</button>
+                        <a href="error.html"><button class="btn btn-outline-success my-0 my-sm-0" type="submit">Search</button></a>
                     </form>
                 </div>
             </div>
         </div>
-        <div class="w-100 text-center credits">
+        <div class="w-100 text-center">
             <p>Creado por
-                <elhiho href="">elhiho </a>&copy; 2020. Derechos reservados.</p>
+                <a href="error.html">elhiho </a>&copy; 2020. Derechos reservados.</p>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script>
+        $(document).ready(function() {
+            $(".hamburger_btn").click(function() {
+                $(this).toggleClass("active");
+                $(".menu").toggleClass("active");
+            });
+        });
+    </script>
     <script src="app.js"></script>
 </body>
 

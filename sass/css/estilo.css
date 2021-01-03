@@ -106,7 +106,7 @@ button {
       transform: translate(-7px, 15px);
       width: 400px; }
   .navfondo button {
-    margin-right: 0;
+    margin-right: 20px;
     padding: 9px 25px;
     background-color: #0088a9;
     border: none;
@@ -1211,10 +1211,11 @@ button {
     justify-content: center;
     position: relative;
     margin: auto;
-    padding-top: 10px; }
+    padding-top: 10px;
+    margin-top: 10px !important; }
   .news-content a {
-    padding: 10px 22px;
-    width: 115px; }
+    padding: 10px 22px !important;
+    width: 115px !important; }
   .inner-section {
     padding: 80px; } }
 
@@ -1234,7 +1235,10 @@ button {
     background: #fdfdfd;
     padding: 10px !important; }
     .inner-section h1 {
-      text-align: center; } }
+      text-align: center; }
+  .news-content a {
+    padding: 10px 22px !important;
+    width: 115px !important; } }
 
 @media screen and (max-width: 860px) {
   body {
@@ -1246,7 +1250,7 @@ button {
   .navfondo {
     width: 100%;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-evenly; }
     .navfondo .logofondo {
       background: none; }
       .navfondo .logofondo .logo {
@@ -1282,8 +1286,8 @@ button {
     margin: auto;
     padding-top: 10px; }
   .news-content a {
-    padding: 10px 22px;
-    width: 115px; }
+    padding: 10px 22px !important;
+    width: 115px !important; }
   /****** blog ***/
   .rounded-circle {
     width: 100px; }
@@ -1332,7 +1336,8 @@ button {
     justify-content: center;
     position: relative;
     margin: auto;
-    padding-top: 10px; }
+    padding-top: 10px;
+    margin-top: 10px !important; }
   .news-content a {
     padding: 10px 22px;
     width: 115px; }
@@ -1393,10 +1398,11 @@ button {
     justify-content: center;
     position: relative;
     margin: auto;
-    padding-top: 10px; }
+    padding-top: 10px;
+    margin-top: 10px !important; }
   .news-content a {
-    padding: 10px 22px;
-    width: 115px; }
+    padding: 10px 22px !important;
+    width: 115px !important; }
   /****** blog ***/
   .rounded-circle {
     width: 100px; }
@@ -1461,10 +1467,11 @@ button {
     justify-content: center;
     position: relative;
     margin: auto;
-    padding-top: 10px; }
+    padding-top: 10px;
+    margin-top: 10px !important; }
   .news-content a {
-    padding: 10px 22px;
-    width: 115px; }
+    padding: 10px 22px !important;
+    width: 115px !important; }
   /****** blog ***/
   .rounded-circle {
     width: 100px; }

@@ -1878,11 +1878,36 @@ button {
         }
         .text {
             font-size: 12px;
+            padding-top: 15px;
+        }
+    }
+    .banner {
+        .texto__banner {
+            h1 {
+                font-size: 1.5rem;
+            }
+            p {
+                font-size: small;
+            }
+            hr {
+                width: 80%;
+            }
         }
     }
     .card--promociones {
         .author_promocion {
             font-size: 15px !important;
+        }
+    }
+    .promociones__interno {
+        h2 {
+            font-size: 1.5rem;
+        }
+        p {
+            font-size: small;
+        }
+        hr {
+            width: 80% !important;
         }
     }
 }
@@ -1994,9 +2019,33 @@ button {
             padding-top: 15px;
         }
     }
+    .banner {
+        .texto__banner {
+            h1 {
+                font-size: 1.5rem;
+            }
+            p {
+                font-size: small;
+            }
+            hr {
+                width: 80%;
+            }
+        }
+    }
     .card--promociones {
         .author_promocion {
             font-size: 15px !important;
+        }
+    }
+    .promociones__interno {
+        h2 {
+            font-size: 1.5rem;
+        }
+        p {
+            font-size: small;
+        }
+        hr {
+            width: 80% !important;
         }
     }
 }

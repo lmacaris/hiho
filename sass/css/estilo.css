@@ -1441,9 +1441,22 @@ button {
   .card .author {
     font-size: 17px; }
   .card .text {
-    font-size: 12px; }
+    font-size: 12px;
+    padding-top: 15px; }
+  .banner .texto__banner h1 {
+    font-size: 1.5rem; }
+  .banner .texto__banner p {
+    font-size: small; }
+  .banner .texto__banner hr {
+    width: 80%; }
   .card--promociones .author_promocion {
-    font-size: 15px !important; } }
+    font-size: 15px !important; }
+  .promociones__interno h2 {
+    font-size: 1.5rem; }
+  .promociones__interno p {
+    font-size: small; }
+  .promociones__interno hr {
+    width: 80% !important; } }
 
 @media screen and (max-width: 320px) {
   body {
@@ -1522,7 +1535,19 @@ button {
   .card .text {
     font-size: 12px;
     padding-top: 15px; }
+  .banner .texto__banner h1 {
+    font-size: 1.5rem; }
+  .banner .texto__banner p {
+    font-size: small; }
+  .banner .texto__banner hr {
+    width: 80%; }
   .card--promociones .author_promocion {
-    font-size: 15px !important; } }
+    font-size: 15px !important; }
+  .promociones__interno h2 {
+    font-size: 1.5rem; }
+  .promociones__interno p {
+    font-size: small; }
+  .promociones__interno hr {
+    width: 80% !important; } }
 
 /******************* FIN RESPONSIVE *************/

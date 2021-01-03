@@ -435,28 +435,35 @@ button {
   .about .inner-section {
     width: 55%;
     float: right;
-    background: #fdfdfd;
+    background: #a0712b;
     padding: 140px; }
     .about .inner-section h1 {
       margin-bottom: 30px;
-      font-size: 30px;
-      font-weight: 900;
-      text-align: center; }
+      font-size: 25px;
+      font-weight: 400;
+      text-align: center;
+      font-family: 'Montserrat';
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      color: #ffffff; }
     .about .inner-section .inner_text {
       font-size: 13px;
-      color: #545454;
+      color: #fff;
       line-height: 30px;
       text-align: center;
       margin-bottom: 40px; }
     .about .inner-section .skills {
       font-size: 22px;
+      font-family: Montserrat, sans-serif;
+      font-weight: 500;
+      text-transform: uppercase;
       text-align: center;
       letter-spacing: 2px;
       border: none;
       border-radius: 20px;
       padding: 8px;
       width: 200px;
-      background-color: #00999c;
+      background-color: #0088a9;
       color: white;
       cursor: pointer;
       margin: auto; }
@@ -464,10 +471,9 @@ button {
         color: white;
         background: none;
         border: none; }
-        .about .inner-section .skills button:hover {
-          transition: 0.5s;
-          background: none;
-          color: #385858; }
+      .about .inner-section .skills:hover {
+        transition: 0.5s;
+        background-color: #125a4e; }
 
 /*.about {
     display: flex;

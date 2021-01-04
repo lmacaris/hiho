@@ -1430,7 +1430,7 @@ button {
   .inner-section {
     width: 100% !important;
     float: right;
-    background: #fdfdfd;
+    background: #a0712b;
     padding: 10px !important; }
     .inner-section h1 {
       text-align: center; }
@@ -1522,7 +1522,7 @@ button {
     .about .inner-section {
       width: 100% !important;
       float: right;
-      background: #fdfdfd;
+      background: #a0712b;
       padding: 10px !important; }
       .about .inner-section h1 {
         text-align: center; }

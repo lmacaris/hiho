@@ -1527,6 +1527,18 @@ button {
 
 /******************** RESPONSIVE *************/
 
+@media screen and (max-width: 1445px) {
+    .inner-section {
+        width: 80% !important;
+        float: right;
+        background: #fdfdfd;
+        padding: 10px !important;
+        h1 {
+            text-align: center;
+        }
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .testimonial-section {
         width: 100%;
@@ -1583,8 +1595,15 @@ button {
         padding: 10px 22px !important;
         width: 115px !important;
     }
+    /*********** Nosotros ********/
     .inner-section {
-        padding: 80px;
+        width: 80% !important;
+        float: right;
+        background: #fdfdfd;
+        padding: 10px !important;
+        h1 {
+            text-align: center;
+        }
     }
 }
 
